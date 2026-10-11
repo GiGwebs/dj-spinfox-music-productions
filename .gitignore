@@ -1,0 +1,44 @@
+# Secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+
+# Audio files — keep these in Dropbox, not in Git
+*.wav
+*.mp3
+*.flac
+*.aiff
+*.m4a
+*.ogg
+
+# Large images / artwork — link to them instead
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.psd
+*.ai
+
+# Video files
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Runtime caches and build output
+__pycache__/
+*.pyc
+node_modules/
+.cache/
+dist/
+build/
+*.log

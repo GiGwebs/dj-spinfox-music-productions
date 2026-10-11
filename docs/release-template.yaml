@@ -1,0 +1,37 @@
+track:
+  title: "Track Title"
+  type: "suno-ai" # suno-ai | dj-mix | edit | mashup
+  status: "idea" # idea | in-production | ready-for-release | submitted | published | archived
+  genre: ""
+  mood: ""
+  bpm: 0
+  key: ""
+  created_at: "YYYY-MM-DD"
+  released_at: "YYYY-MM-DD"
+
+source:
+  suno_url: "" # if type is suno-ai
+  dropbox_path: "" # e.g. Dropbox/.../SUNO AI creations/Track Title/
+  local_path: "" # e.g. /Users/gigwebs/...
+
+assets:
+  master_file: ""
+  cover_art: ""
+  lyrics_file: ""
+  promo_video: ""
+
+publication:
+  upc: ""
+  isrc: ""
+  release_date: "YYYY-MM-DD"
+  tunecore_status: "not-started" # not-started | draft | submitted | approved | live
+  territories: ["Worldwide"]
+  channels: ["Streaming", "Download"]
+
+campaign:
+  platforms: []
+  posts: []
+  schedule: []
+  status: "not-started"
+
+notes: ""
